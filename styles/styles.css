@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 800px; /
+}
+
+aside {
+    width: 300px;
+    margin: 20px 0;
+    border: 1px solid #532b2b;
+    padding: 10px;
+    background-color: #4d0f0f;
+    color: #333;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #3c3434;
+    text-align: center;
+}
