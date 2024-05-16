@@ -1,0 +1,62 @@
+@import url('https://charlesbyuidaho.github.io/wdd130-2/');
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent1-color: #9b59b6;
+  --accent2-color: #e74c3c;
+
+  --heading-font: 'Roboto', serif;
+  --paragraph-font: 'Open Sans', serif;
+
+  --nav-background-color: #ecf0f1;
+  --nav-link-color: #333;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #3498db;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+p {
+  padding: 25px;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
