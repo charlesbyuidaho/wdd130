@@ -1,4 +1,9 @@
 /* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 nav {
     background-color: #d12020;
     color: #1b1d1e;
@@ -14,18 +19,22 @@ nav a {
 h1 {
     font-size: 2em;
     text-align: center;
-}
+}    
 
-img {
+/* img {
     max-width: 80%;
     height: auto;
-}
+} */
 
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
+main img {
+    width: 200px;
+    float: right;
+}
 aside {
     width: 300px;
     margin: 20px 0;
@@ -34,11 +43,19 @@ aside {
     background-color: #383f3b;
     color: #ce6c6c;
     text-align: center;
+    position: relative;
   }
+aside h2 {
+    position: absolute;
+    top: 27px;
+    left: 74px;
+}
 
 aside img {
-    width: 100%;
+    width: 150px;
     height: auto;
+    top: 20px;
+    left: 50px;
 }
 
 p {
@@ -52,3 +69,12 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(144, 91, 91, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+  }
