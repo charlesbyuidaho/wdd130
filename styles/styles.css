@@ -35,7 +35,7 @@ main img {
     height: auto;
     border: 1px solid saddlebrown;
     padding: 2px;
-    box-shadow: 30px;
+    box-shadow: 0 0 30px gray;
     float: right;
 
 }
