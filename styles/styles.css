@@ -43,11 +43,15 @@ main {
     grid-column: 2/3;
     margin: 1rem;
 }
+main ul{
+  margin-top: 30px;
+}
 
 main img {
-    width: 20rem;
+    width: 10rem;
     height: auto;
     float: right;
+    margin-left: 20px;
 
 }
 aside {
@@ -62,12 +66,18 @@ aside {
 aside h2 {
     position: absolute;
     top: 27px;
-    left: 74px;
+    left: 110px;
+    color: white;
+    font-size: 18px;
+}
+.box p {
+  margin-left: 80px;
 }
 
 aside img {
     width: 150px;
     height: auto;
+ 
 }
 
 p {
@@ -84,7 +94,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(144, 91, 91, 0.1);
-    padding: 1rem;
+    padding: 1rem auto ;
     background-color: #ddd;
     color: #000;
   }
@@ -109,6 +119,7 @@ nav a {
   }
   h1 {
     border-bottom: 1px solid #000;
+    margin-bottom: 40px;
   }
   header, .grid, footer {
     max-width: 840px;
