@@ -1,0 +1,65 @@
+/* File path: wwr/styles/rafting.css */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #FFFFFF;
+    --font-color: #212529;
+}
+
+/* Apply Google Font and color schema */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+/* Style paragraph */
+p {
+    color: var(--secondary-color);
+}
+
+/* Remove underline from social media links */
+a {
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    position: absolute;
+    top: 0px;
+
+}
+
+article {
+    position: absolute;
+    background-color: rgba(188, 133, 133, 0.5);
+    top: 50px; 
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+}
+section img{
+    width: px200;
+
+}
