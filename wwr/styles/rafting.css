@@ -14,10 +14,10 @@
 /* Apply Google Font and color schema */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--background-color);
     color: var(--font-color);
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #b4c2e6;
 }
 
 /* Style headings */
@@ -36,7 +36,17 @@ a {
 }
 .hero{
     position: relative;
+    border: 1px solid #ccc;
+    margin: 1rem auto;
+}
 
+.hero article{
+    position: absolute;
+    top: 100px;
+    background-color: #a7cff8;
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
 }
 .hero img {
     display: block;
@@ -59,7 +69,144 @@ article {
     float: right;
     width: 200px;
 }
-section img{
-    width: px200;
+
+.hero h1{
+    position: absolute;
+    top: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+}
+
+.history{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px gray;
+}
+.history h2{
+  grid-area: 1/1/1/4;
+  text-align: center;
+}
+
+.history.para-1{
+grid-area: 2/1/2/2;
 
 }
+.history img{
+  grid-area: 2/2/2/3;
+  width: 200px;
+  justify-self: center;
+}
+
+.history .para-2{
+  grid-area: 2/3/2/4;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    margin: 1rem auto;
+  }
+  
+  header img {
+    margin: 0 0.25rem 0 0.2rem;
+    height: auto;
+    width: 150px;
+    padding-left: 30px;
+    
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+body {
+    font-family: Arial, sans-serif;
+  }
+/*   
+  .header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+   */
+  /* .logo {
+    max-width: 100px;
+  } */
+  
+  /* .nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  } */
+  
+  /* .nav-item {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+   */
+  
+  section .adventure {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    padding: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px gray;
+    margin-bottom: 20px;
+    
+  }
+  section .adventure img{
+    width: 100px;
+    
+  }
+
+  section figure img{
+    flex: 1 1 200px;
+  }
+
+  section .adventure figure{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  section h2{
+    width: 100%;
+    text-align: center;
+    flex: 6 200px;
+  }
+  
+/* 
+  .figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+  }
+   */
+  footer {
+    display: grid;
+    background-color: #e87dbd;
+    grid-template-columns: repeat(4,1fr)
+  }
+  footer p{
+    justify-self: center;
+    grid-area: 1/2/1/4;
+    align-self: center;
+  }
+  
+  footer nav{
+    grid-area: 1/4/1/5;
+    justify-self: right;
+    align-self: center;
+  }
+
+  
