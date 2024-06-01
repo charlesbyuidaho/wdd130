@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    width: 50%;
+    margin: auto;
+}
+.question {
+    margin-bottom: 20px;
+}
+.submit-button {
+    background-color: #4CAF50;
+    color: rgb(195, 41, 41);
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
