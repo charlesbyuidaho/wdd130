@@ -28,7 +28,7 @@ input[type="text"], select {
 
 input[type="submit"] {
    background-color:#3281d4; 
-   color:rgb(155, 22, 26); 
+   color:rgb(191, 179, 179); 
    padding :10px 15px; 
    border:none; 
    cursor:pointer; 
