@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Basic HTML and CSS Quiz</title>
     <meta name="description" content="This is a basic HTML and CSS quiz.">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Christopher Charles">
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
@@ -26,9 +26,13 @@
         <label for="q3">3. Which of the following is a valid CSS comment?</label>
         <select id="q3" name="q3">
             <option value="">Choose One ...</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="option1">/* This is a single line comment */</option>
+            <option value="option2">/*
+                This is a multi-line comment
+                You can write as many lines as you want
+                */
+                </option>
+            <option value="option3">body { background-color: #ffffff; /** This is a comment at the end of a line **/ }</option>
         </select>
     </div>
 
