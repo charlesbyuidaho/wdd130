@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - White Water Rafting</title>
+  <meta name="description" content="The about page describes the mission, goals and social links of the page">
+  <meta name="author" content="Christopher Charles">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo4_200.png" alt="logo-of-about-page">
+    <nav>
+      <ul class="Navigation">
+      <li><a href="index.html">Home</a></li> 
+      <li><a href="about.html">About</a></li>
+      <li><a href="trips.html">Trips</a></li>
+      <li class="border-right"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+  <main>
+  <h1>Company Information:</h1>
+  <p><strong>Address: Lagos, Nigeria</strong></p>
+  <p><strong><a href="tel:+2347065159588">Phone Number: 07065159588</a></strong></p>
+  <p><strong><a href="mailto:christophercharlesitunu@gmail.com">Email: chr24033@byui.edu</a></strong></p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8381.485568315611!2d3.3648332607382665!3d6.577910998897729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1717454075063!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <article>
+    <figure>
+      <img src="images/happyemployee1.jpg" width="200px">
+      <figcaption>happy-employee1</figcaption>
+    </figure>
+    <figure>
+        <img src="images/happyemployee2.jpg" width="200px">
+        <figcaption>happy-employee2</figcaption>
+      </figure>
+      <figure>
+        <img src="images/happyemployee3.jpg" width="200px">
+        <figcaption>happy-employee3</figcaption>
+      </figure>
+  </article>
+
+  <form onsubmit="showMessage(); return false;">
+    <fieldset>
+      <legend>User Information:</legend>
+      <div class="form-item column2">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName">
+      </div>
+      <div class="form-item column2"> <label for="Email">Email</label>
+        <input type="email" id="Email" name="useremail">
+    </div>
+      <!-- input user purpose-->
+      <label for="purpose">Purpose of Message</label>
+       <!-- input id="purpose"> -->
+    <input type="radio" name="Purpose" value="General Inquiry">General Inquiry</input>
+    <input type="radio" name="Purpose" value="Reservation Question">Reservation Question</input>
+    <input type="radio" name="Purpose" value="Website Question">Website Question</input>
+    <label for="Message">Message:</label>
+    <textarea id="Message" name="Message" rows="4"></textarea>
+    <input type="checkbox" name="subscribe" value="yes" id="subscribe">Please subscribe me to the monthly newsletter</input>
+    <button type="submit">Submit Button</button>
+    </fieldset>
+</form>
+</main>
+<footer>
+  <p>© 2024 White Water Rafting. Created by Christopher Charles.</p>
+  <nav class="sociallink">
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="images/facebook.webp" alt="Facebook" width="50">
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+      <img src="images/Twitter.webp" alt="Twitter" width="50">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="images/instagram.webp" alt="Instagram" width="50">
+    </a>
+  </nav>
+  <a href="https://app.moqups.com/ACCAT1KDQx1HoFihSdVrd9fQmdQRTgF9/save">Contact Us Wireframe</a>
+</footer>
+</body>
+</html>
