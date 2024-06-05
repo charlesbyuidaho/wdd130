@@ -257,3 +257,33 @@ p {
       text-decoration: none;
       color: aliceblue;
     }
+    .trips-wrapper img {
+        display: flex;
+    }
+    table tbody tr td{
+        border-bottom: 1px solid black;
+        text-align: center;
+
+    }
+    table thead tr th{
+        border-bottom: 1px solid black;
+
+    }
+    .trips-wrapper h2{
+        text-align: center;
+    }
+    body .index {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header header"
+            "main main main"
+            "footer footer footer";
+        gap: 20px;
+    }
+    main. .index {
+        grid-area: main;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
