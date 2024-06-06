@@ -75,9 +75,10 @@ p {
        /* background-color: #894b22; */
        width: 85%;
        margin-left: 10%;
+       float: left;
    }
    article p{
-    color: #69dc65;
+    color: #020f01;
    }
 
    header {
@@ -85,9 +86,9 @@ p {
     height: 150px;
     grid-template-columns: 1fr 4fr;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #bb3333;
     padding-left: 100px;
-    max-width: 1000px;
+    width: 100%;
     background-color: #6ec1db;
     }
 
@@ -137,17 +138,8 @@ p {
         text-align: center;
    
     }
-
-    
-
-    .history {
+    .history{
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        /* border: 1px solid rgba(0, 0, 0,  0.5); */
-        box-shadow: 0 0 40px #894b22;
-        width: 96%;
-        margin: 2%;
-        /* gap: 50px; */
     }
     
     .history h2 {
@@ -161,16 +153,24 @@ p {
         margin-left: 25px;
     }
 
-    .history img {
+    .history .history-parag-2 {
+        grid-area: 2/5/3/7;
+        margin-right: 25px;
+    }
+
+    .history-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .history-content img {
+        margin: 0 20px; 
         grid-area: 2/3/3/5;
         justify-self: center;
         width: 350px;
     }
-
-    .history .history-parag-2 {
-        grid-area: 2/5/3/7;
-        margin-right: 25px;
-    } 
+    
 
     .adventure {
         display: grid;
@@ -237,8 +237,21 @@ p {
     article img {
         max-width: 250px;
         border-radius: 5px;
+
         
     }
+    section{
+        display: flex;
+        justify-content: space-evenly;    
+    }
+
+    section figure{
+        max-width: 250px;
+        border-radius: 5px;
+    }
+section figure img{
+    width: 200px;
+}
 
     p {
         text-align: center;
@@ -257,8 +270,11 @@ p {
       text-decoration: none;
       color: aliceblue;
     }
-    .trips-wrapper img {
+    .trips-wrapper{
         display: flex;
+    }
+    table{
+        width: 100%;
     }
     table tbody tr td{
         border-bottom: 1px solid black;
@@ -282,8 +298,14 @@ p {
             "footer footer footer";
         gap: 20px;
     }
-    main. .index {
+    /* main.index {
         grid-area: main;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    } */
+    .bottom-img{
+            display: flex;
+            
+          
+}
